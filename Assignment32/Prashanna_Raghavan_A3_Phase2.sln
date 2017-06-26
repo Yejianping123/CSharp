@@ -1,0 +1,112 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "AirlineSVC", "AirlineSVC\", "{C22EEDA8-C9F7-43E4-854A-E665B7AA6571}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5.2"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_58543"
+		Debug.AspNetCompiler.PhysicalPath = "AirlineSVC\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_58543\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_58543"
+		Release.AspNetCompiler.PhysicalPath = "AirlineSVC\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_58543\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "58543"
+	EndProjectSection
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "AirlineTryIt", "AirlineTryIt\", "{6682E795-21D7-4FB4-82AD-CCDE380C00B1}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5.2"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_58553"
+		Debug.AspNetCompiler.PhysicalPath = "AirlineTryIt\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_58553\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_58553"
+		Release.AspNetCompiler.PhysicalPath = "AirlineTryIt\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_58553\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "58553"
+	EndProjectSection
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "CreditCard", "CreditCard\", "{B7E22E4C-36CA-4EC9-89B7-9FA7920E1A77}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5.2"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_58554"
+		Debug.AspNetCompiler.PhysicalPath = "CreditCard\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_58554\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_58554"
+		Release.AspNetCompiler.PhysicalPath = "CreditCard\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_58554\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "58554"
+	EndProjectSection
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "ValidateTryIt", "ValidateTryIt\", "{079A7D0C-E802-4A87-9B69-A148E62B17B2}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5.2"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_58557"
+		Debug.AspNetCompiler.PhysicalPath = "ValidateTryIt\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_58557\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_58557"
+		Release.AspNetCompiler.PhysicalPath = "ValidateTryIt\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_58557\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "58557"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C22EEDA8-C9F7-43E4-854A-E665B7AA6571}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C22EEDA8-C9F7-43E4-854A-E665B7AA6571}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C22EEDA8-C9F7-43E4-854A-E665B7AA6571}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{C22EEDA8-C9F7-43E4-854A-E665B7AA6571}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{6682E795-21D7-4FB4-82AD-CCDE380C00B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6682E795-21D7-4FB4-82AD-CCDE380C00B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6682E795-21D7-4FB4-82AD-CCDE380C00B1}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{6682E795-21D7-4FB4-82AD-CCDE380C00B1}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{B7E22E4C-36CA-4EC9-89B7-9FA7920E1A77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7E22E4C-36CA-4EC9-89B7-9FA7920E1A77}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7E22E4C-36CA-4EC9-89B7-9FA7920E1A77}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7E22E4C-36CA-4EC9-89B7-9FA7920E1A77}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{079A7D0C-E802-4A87-9B69-A148E62B17B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{079A7D0C-E802-4A87-9B69-A148E62B17B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{079A7D0C-E802-4A87-9B69-A148E62B17B2}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{079A7D0C-E802-4A87-9B69-A148E62B17B2}.Release|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
