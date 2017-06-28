@@ -1,0 +1,63 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "XMLTryIt", "XMLTryIt\", "{139F3CD5-8963-4DCF-AAE8-B0CB557317A1}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5.2"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_50941"
+		Debug.AspNetCompiler.PhysicalPath = "XMLTryIt\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_50941\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_50941"
+		Release.AspNetCompiler.PhysicalPath = "XMLTryIt\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_50941\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "50941"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+	ProjectSection(ProjectDependencies) = postProject
+		{9CF77F50-5CB3-49A7-8229-5617649EB715} = {9CF77F50-5CB3-49A7-8229-5617649EB715}
+	EndProjectSection
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Prashanna_Raghavan_A4(1)", "Prashanna_Raghavan_A4\", "{9CF77F50-5CB3-49A7-8229-5617649EB715}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5.2"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_56040"
+		Debug.AspNetCompiler.PhysicalPath = "Prashanna_Raghavan_A4\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_56040\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_56040"
+		Release.AspNetCompiler.PhysicalPath = "Prashanna_Raghavan_A4\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_56040\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "56040"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{139F3CD5-8963-4DCF-AAE8-B0CB557317A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{139F3CD5-8963-4DCF-AAE8-B0CB557317A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9CF77F50-5CB3-49A7-8229-5617649EB715}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CF77F50-5CB3-49A7-8229-5617649EB715}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

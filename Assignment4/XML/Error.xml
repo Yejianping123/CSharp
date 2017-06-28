@@ -1,0 +1,53 @@
+<?xml-stylesheet type="text/xsl" href="Persons.xsl"?>
+<Persons>
+
+<Person>
+<Name>
+	<First>Eddard</First>
+	<Last>Stark</Last>
+</Name>
+	<Credential>
+		<Id>ned</Id>
+		<Password>neddsod@2017</Password>
+	</Credential>
+	<Phone>
+	<Work>9876543210</Work>
+	<Cell>9876543211</Cell>
+	</Phone>
+	<Category>Friend</Category>
+	<ErrorType>Included</ErrorType>
+</Person>
+
+<Person>
+<Name>
+	<First>Jon</First>
+	<Last>Snow</Last>
+</Name>
+	<Credential>
+		<Id>jonsnow</Id>
+		<Password>jondsod@2017</Password>
+	</Credential>
+	<Phone>
+	<Work>9876543220</Work>
+	<Cell>9876543221</Cell>
+	</Phone>
+	<Category>Family</Category>
+</Person>
+
+<Person>
+<Name>
+	<First>Robert</First>
+	<Last>Baratheon</Last>
+</Name>
+	<Credential>
+		<Id>robert</Id>
+		<Password>robdsod@2017</Password>
+	</Credential>
+	<Phone>
+	<Work>9876543230</Work>
+	<Cell>9876543231</Cell>
+	</Phone>
+	<Category>Work</Category>
+</Person>
+
+</Persons>
