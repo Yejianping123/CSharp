@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="Service1" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://localhost:54320/Service1.svc?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://localhost:54320/Service1.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://localhost:54320/Service1.svc?xsd=xsd2" namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IService1_CancelTicket_InputMessage">
+    <wsdl:part name="parameters" element="tns:CancelTicket" />
+  </wsdl:message>
+  <wsdl:message name="IService1_CancelTicket_OutputMessage">
+    <wsdl:part name="parameters" element="tns:CancelTicketResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_CompleteFlights_InputMessage">
+    <wsdl:part name="parameters" element="tns:CompleteFlights" />
+  </wsdl:message>
+  <wsdl:message name="IService1_CompleteFlights_OutputMessage">
+    <wsdl:part name="parameters" element="tns:CompleteFlightsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_isTicketAvailable_InputMessage">
+    <wsdl:part name="parameters" element="tns:isTicketAvailable" />
+  </wsdl:message>
+  <wsdl:message name="IService1_isTicketAvailable_OutputMessage">
+    <wsdl:part name="parameters" element="tns:isTicketAvailableResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_ReserveTickets_InputMessage">
+    <wsdl:part name="parameters" element="tns:ReserveTickets" />
+  </wsdl:message>
+  <wsdl:message name="IService1_ReserveTickets_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ReserveTicketsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_MatchingFlights_InputMessage">
+    <wsdl:part name="parameters" element="tns:MatchingFlights" />
+  </wsdl:message>
+  <wsdl:message name="IService1_MatchingFlights_OutputMessage">
+    <wsdl:part name="parameters" element="tns:MatchingFlightsResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IService1">
+    <wsdl:operation name="CancelTicket">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/CancelTicket" message="tns:IService1_CancelTicket_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/CancelTicketResponse" message="tns:IService1_CancelTicket_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="CompleteFlights">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/CompleteFlights" message="tns:IService1_CompleteFlights_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/CompleteFlightsResponse" message="tns:IService1_CompleteFlights_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="isTicketAvailable">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/isTicketAvailable" message="tns:IService1_isTicketAvailable_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/isTicketAvailableResponse" message="tns:IService1_isTicketAvailable_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ReserveTickets">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/ReserveTickets" message="tns:IService1_ReserveTickets_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/ReserveTicketsResponse" message="tns:IService1_ReserveTickets_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="MatchingFlights">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/MatchingFlights" message="tns:IService1_MatchingFlights_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/MatchingFlightsResponse" message="tns:IService1_MatchingFlights_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_IService1" type="tns:IService1">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="CancelTicket">
+      <soap:operation soapAction="http://tempuri.org/IService1/CancelTicket" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CompleteFlights">
+      <soap:operation soapAction="http://tempuri.org/IService1/CompleteFlights" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="isTicketAvailable">
+      <soap:operation soapAction="http://tempuri.org/IService1/isTicketAvailable" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ReserveTickets">
+      <soap:operation soapAction="http://tempuri.org/IService1/ReserveTickets" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="MatchingFlights">
+      <soap:operation soapAction="http://tempuri.org/IService1/MatchingFlights" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="Service1">
+    <wsdl:port name="BasicHttpBinding_IService1" binding="tns:BasicHttpBinding_IService1">
+      <soap:address location="http://localhost:54320/Service1.svc" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

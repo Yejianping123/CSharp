@@ -1,0 +1,38 @@
+<Users>
+
+<User>
+  <Username>nStark@westeros.com</Username>
+  <Password>uApdYlsiSzADZYP4+kR+wg==</Password>
+  <Role>Member</Role>
+</User>
+
+
+<User>
+  <Username>bStark@westeros.com</Username>
+  <Password>xcr1sJq6yxv5gXf5c8ifpQ==</Password>
+  <Role>Member</Role>
+</User>
+
+
+<User>
+  <Username>littlefinger@westeros.com</Username>
+  <Password>C5RQbO1P/pDXJ+FMl+OLqg==</Password>
+  <Role>Staff-Support</Role>
+</User>
+
+
+<User>
+  <Username>varys@westeros.com</Username>
+  <Password>iYHXXf9o7byfDip2oGdHiw==</Password>
+  <Role>Staff-Support</Role>
+</User>
+
+
+<User>
+  <Username>dTargaryen@westeros.com</Username>
+  <Password>pi65sZ7VYsRrXRLX4uYNqw==</Password>
+  <Role>Staff-Admin</Role>
+</User>
+</Users>
+
+
