@@ -1,0 +1,59 @@
+<Users>
+
+<User>
+  <Username>nStark@westeros.com</Username>
+  <Password>uApdYlsiSzADZYP4+kR+wg==</Password>
+  <Role>Member</Role>
+</User>
+
+
+<User>
+  <Username>bStark@westeros.com</Username>
+  <Password>xcr1sJq6yxv5gXf5c8ifpQ==</Password>
+  <Role>Member</Role>
+</User>
+
+
+<User>
+  <Username>littlefinger@westeros.com</Username>
+  <Password>C5RQbO1P/pDXJ+FMl+OLqg==</Password>
+  <Role>Staff-Support</Role>
+</User>
+
+
+<User>
+  <Username>varys@westeros.com</Username>
+  <Password>iYHXXf9o7byfDip2oGdHiw==</Password>
+  <Role>Staff-Support</Role>
+</User>
+
+
+<User>
+  <Username>dTargaryen@westeros.com</Username>
+  <Password>pi65sZ7VYsRrXRLX4uYNqw==</Password>
+  <Role>Staff-Admin</Role>
+</User>
+
+  <User>
+    <Username>member@gmail.com</Username>
+    <Password>xHGbxXL5oIo2pdRDT1L7Gg==</Password>
+    <Role>Member</Role>
+  </User>
+
+
+  <User>
+    <Username>support@gmail.com</Username>
+    <Password>p9Ddhy0KMgwMj6UEQQQxlQ==</Password>
+    <Role>Staff-Support</Role>
+  </User>
+
+
+  <User>
+    <Username>admin@gmail.com</Username>
+    <Password>lxa7VV06ldPzyetzc833/w==</Password>
+    <Role>Staff-Admin</Role>
+  </User>
+  
+</Users>
+
+
